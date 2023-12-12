@@ -14,7 +14,7 @@ body {
 
 .container {
   display: grid;
-  width: 91%;
+  width: 89%;
   height: 99vh;
   margin: 20px auto;
   /* border: 1px solid black; */
@@ -25,7 +25,7 @@ body {
 
 .subcontainer1 {
   display: grid;
-  grid-template-rows: 2.5fr 5fr 2.5fr;
+  grid-template-rows: 1.8fr 5.7fr 2.5fr;
   background-color: #f8f9fa;
   /* background-color: antiquewhite; */
   /* border: 1px solid blue; */
@@ -64,7 +64,7 @@ body {
 }
 
 .row2 {
-  padding: 30px 0px;
+  padding: 10px 0px 50px;
   display: grid;
   grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
   grid-template-rows: repeat(4, 2fr);
@@ -82,6 +82,10 @@ body {
 .row3 p {
   font-size: 12px;
   color: rgb(94, 93, 93);
+}
+
+.headings {
+  font-size: 12px;
 }
 
 .h6,
@@ -106,7 +110,7 @@ body {
   display: grid;
   grid-template-columns: 5.5fr 2fr;
   grid-template-rows: 1.2fr 1fr;
-  padding: 0px 15px;
+  padding: 0px 15px 0px 23px;
 }
 
 .flex {
@@ -154,16 +158,23 @@ body {
 
 .lower {
   width: 140px;
-  /* height: 25px; */
   padding: 5.5px 18px 5.5px 5px;
   background-color: transparent;
   border: 1px solid grey;
   color: grey;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   border-radius: 5px;
+  margin-left: 10px;
+}
 
-  /* margin-left: 10px; */
+.but_ton {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search {
+  margin-left: 6px;
 }
 
 #lower {
@@ -175,6 +186,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 6fr 1.3fr 1.7fr;
   align-items: center;
+  margin: 0px 23px;
 }
 
 /* .one,
@@ -192,8 +204,8 @@ body {
 .row12 {
   display: grid;
   grid-template-columns: 1fr 6.8fr 1.2fr 1.2fr;
-  /* justify-content: center; */
   align-items: center;
+  margin: 0px 23px;
 }
 
 /* .one1,
@@ -210,8 +222,8 @@ body {
 }
 
 .gallery {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .one1,

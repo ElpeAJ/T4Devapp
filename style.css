@@ -81,7 +81,7 @@ body {
 
 .row3 p {
   font-size: 12px;
-  color: rgb(94, 93, 93);
+  color: grey;
 }
 
 .headings {
@@ -108,7 +108,7 @@ body {
 
 .grid3 {
   display: grid;
-  grid-template-columns: 5.5fr 2fr;
+  grid-template-columns: 5.8fr 2fr;
   grid-template-rows: 1.2fr 1fr;
   padding: 0px 15px 0px 23px;
 }
@@ -160,7 +160,7 @@ body {
   width: 140px;
   padding: 5.5px 18px 5.5px 5px;
   background-color: transparent;
-  border: 1px solid grey;
+  border: 1px solid rgb(202, 201, 201);
   color: grey;
   font-size: 12px;
   font-weight: bold;
@@ -174,11 +174,12 @@ body {
 }
 
 .search {
-  margin-left: 6px;
+  /* margin-left: 6px; */
+  width: 60px;
 }
 
 #lower {
-  padding: 5.5px 0px;
+  margin: 5.7px auto;
 }
 
 .row5,

@@ -36,17 +36,17 @@ Greater flexibility.
 ### Examples of popular app connectors:
 
 
-Linear & Figma:
----
-These two apps are connected through official integrations. 
-Figma & Notion:
----
-These two apps also have an official integration. 
-GitHub & Notion:
----
-There are several unofficial integrations between GitHub and Notion. 
-Loom & Dropbox:
----
-You can save Loom videos directly to Dropbox for easy sharing and storage.
+Linear & Figma: These two apps are connected through official integrations. 
+
+
+Figma & Notion: These two apps also have an official integration. 
+
+
+GitHub & Notion: There are several unofficial integrations between GitHub and Notion.
+
+
+Loom & Dropbox: You can save Loom videos directly to Dropbox for easy sharing and storage.
+
+
 Mailchimp & Dropbox: You can import email addresses from Dropbox into your Mailchimp lists.
 

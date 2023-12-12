@@ -1,5 +1,4 @@
 ### Group members:
-<br>
 Oluwatoyin O.      |      Nana Adwoa M.      |      Flora N.
 <br>
 Adaobi C.          |      Nina Spio Q.       |      Chiamaka O.

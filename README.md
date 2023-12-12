@@ -8,6 +8,7 @@ Olaide A.          |      Shulammite U.      |      Anna T.
 Gift O.            |      Aanu A.            |      Elpedia A. J
   
 App Connectors: Bringing Your Digital World Together
+<br>
 This is the vision behind app connectors - powerful tools that bridge the gap between different applications, allowing them to communicate and collaborate.
 ---
 ### Benefits of using app connectors:

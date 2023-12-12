@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  width: 90%;
+  height: 95vh;
+  margin: 20px auto;
+  border: 1px solid black;
+  grid-template-columns: 3.5fr 6.5fr;
+}
+
+.subcontainer1 {
+  display: grid;
+  grid-template-rows: 2.5fr 5fr 2.5fr;
+  border: 1px solid blue;
+}
+
+.row1,
+.row2,
+.row3 {
+  border: 1px solid red;
+}
+
+.subcontainer2 {
+  display: grid;
+  grid-template-rows: 2fr repeat(9, 1fr);
+  border: 1px solid blue;
+}
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9,
+.row10,
+.row11,
+.row12,
+.row13,
+.row14 {
+  border: 1px solid orange;
+}
+
+.drive {
+  font-size: 35px;
+  /* background-image: linear-gradient(to bottom right, red, yellow, blue); */
+  color: blue;
+}

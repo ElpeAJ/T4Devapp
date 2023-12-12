@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,10 @@
 }
 body {
   min-height: 100vh;
-  background-color: rgb(163, 159, 159);
+  background-color: #e9ecef;
+  font-family: 'Open Sans', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+
 }
 
 .container {
@@ -22,7 +28,8 @@ body {
 .subcontainer1 {
   display: grid;
   grid-template-rows: 2.5fr 5fr 2.5fr;
-  background-color: antiquewhite;
+  background-color: #f8f9fa;
+  /* background-color: antiquewhite; */
   /* border: 1px solid blue; */
 }
 
@@ -35,7 +42,13 @@ body {
 .subcontainer2 {
   display: grid;
   grid-template-rows: 2fr repeat(9, 1fr);
+  padding-top: 30px;
   /* border: 1px solid blue; */
+}
+.row1{
+  display: flex;
+  padding: 15px;
+  gap: 5px;
 }
 
 .row4,
@@ -49,7 +62,7 @@ body {
 .row12,
 .row13,
 .row14 {
-  border: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .row2 {
@@ -60,7 +73,8 @@ body {
 }
 
 .row2 div {
-  height: 50px;
+  /* height: 50px; */
+  width: fit-content;
 }
 
 .row3 {
@@ -94,35 +108,64 @@ body {
 .flex {
   display: flex;
   justify-content: space-around;
-  background-color: #c5e4ef;
-  margin-top: 10px;
-  border: 1px solid black;
-  padding: 2.5px;
+  background-color: #f8f9fa;
+  margin-top: 20px;
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 2px;
 }
 
-button .button {
+
+.button {
+  width: 160px;
+  height: 30px;
   padding: 3.6px;
+  color: grey;
   font-size: 13px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .connected {
+  width: 100px;
+  height: 35px;
   padding: 0.7px 8px 0.7px 8px;
   background-color: black;
   color: white;
   font-size: 11px;
+  border-radius: 5px;
+  margin-left: 17px;
 }
 
 .connect {
+  width: 70px;
+  height: 35px;
+  padding: 0.7px 8px 0.7px 7px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: black;
   font-size: 11px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .lower {
+  width: 140px;
+  height: 25px;
   padding: 3px 24px 2.5px 3px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 5px;
   margin-left: 10px;
 }
 
 #lower {
-  margin-top: 27px;
+  margin-top: 38px;
 }
 
 .row5,
@@ -180,12 +223,36 @@ button .button {
   border-radius: 5px;
 }
 .b1 {
-  width: 130px;
-  border: 1px sold grey;
+  width: 100px;
+  height: 35px;
+  padding: 0.7px 8px 0.7px 7px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: black;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .b2 {
+  width: 100px;
+  height: 35px;
+  padding: 0.7px 8px 0.7px 8px;
   background-color: black;
   color: white;
-  width: 100px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+hr{
+  width: 22%;
+  display: inline-block;
+}
+hr.black{
+  border: 3px solid black;
+  border-radius: 5px;
+}
+hr.white{
+  border: 3px solid white;
+  border-radius: 5px;
 }

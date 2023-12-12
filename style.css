@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -9,18 +8,17 @@
 body {
   min-height: 100vh;
   background-color: #e9ecef;
-  font-family: 'Open Sans', sans-serif;
-/* font-family: 'Roboto', sans-serif; */
-
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .container {
   display: grid;
   width: 93%;
-  height: 95vh;
+  height: 100vh;
   margin: 20px auto;
   /* border: 1px solid black; */
-  grid-template-columns: 3.3fr 6.7fr;
+  grid-template-columns: 3.1fr 6.9fr;
   background-color: white;
   border-radius: 9px;
 }
@@ -42,10 +40,10 @@ body {
 .subcontainer2 {
   display: grid;
   grid-template-rows: 2fr repeat(9, 1fr);
-  padding-top: 30px;
+  /* padding-top: 30px; */
   /* border: 1px solid blue; */
 }
-.row1{
+.row1 {
   display: flex;
   padding: 15px;
   gap: 5px;
@@ -78,7 +76,12 @@ body {
 }
 
 .row3 {
-  margin-left: 15px;
+  margin-left: 25px;
+}
+
+.row3 p {
+  font-size: 12px;
+  color: rgb(94, 93, 93);
 }
 
 .h6,
@@ -102,7 +105,8 @@ body {
 .grid3 {
   display: grid;
   grid-template-columns: 8fr 2fr;
-  padding: 5px 15px;
+  grid-template-rows: 1.2fr 1fr;
+  padding: 0px 15px;
 }
 
 .flex {
@@ -111,12 +115,13 @@ body {
   background-color: #f8f9fa;
   margin-top: 20px;
   border: 1px solid grey;
-  padding: 4px;
+  padding: 0px 4px;
   border-radius: 2px;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
-
-.button {
+/* .button {
   width: 160px;
   height: 30px;
   padding: 3.6px;
@@ -126,7 +131,7 @@ body {
   background-color: transparent;
   border: 1px solid grey;
   border-radius: 5px;
-}
+} */
 
 .connected {
   width: 100px;
@@ -151,7 +156,7 @@ body {
   border-radius: 5px;
 }
 
-.lower {
+/* .lower {
   width: 140px;
   height: 25px;
   padding: 3px 24px 2.5px 3px;
@@ -162,11 +167,11 @@ body {
   font-weight: bold;
   border-radius: 5px;
   margin-left: 10px;
-}
+} */
 
-#lower {
+/* #lower {
   margin-top: 38px;
-}
+} */
 
 .row5,
 .row6 {
@@ -207,13 +212,20 @@ body {
   justify-self: center;
 }
 
+.gallery {
+  width: 40px;
+  height: 40px;
+}
+
 .one1,
 .one {
   margin: 0 auto;
 }
 
-.subcontainer2 p {
-  font-size: 12px;
+.subcontainer2 p,
+.three,
+.three3 {
+  font-size: 11px;
   color: #525151;
 }
 
@@ -244,15 +256,15 @@ body {
   border-radius: 5px;
 }
 
-hr{
+hr {
   width: 22%;
   display: inline-block;
 }
-hr.black{
+hr.black {
   border: 3px solid black;
   border-radius: 5px;
 }
-hr.white{
+hr.white {
   border: 3px solid white;
   border-radius: 5px;
 }

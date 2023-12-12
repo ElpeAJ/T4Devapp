@@ -39,7 +39,7 @@ body {
 
 .subcontainer2 {
   display: grid;
-  grid-template-rows: 2.5fr repeat(9, 1fr);
+  grid-template-rows: 2.5fr repeat(8, 1fr) 1.2fr;
   /* border: 1px solid blue; */
 }
 .row1 {

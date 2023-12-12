@@ -107,13 +107,13 @@ body {
 
 .grid3 {
   display: grid;
-  grid-template-columns: 5.8fr 2fr;
+  grid-template-columns: 6.8fr 2.2fr;
   grid-template-rows: 1.2fr 1fr;
   padding: 0px 15px 0px 23px;
 }
 
 .flex {
-  width: 85%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
   background-color: #ebf0f5;
@@ -124,11 +124,11 @@ body {
 }
 
 .button {
-  width: 160px;
-  /* height: 30px; */
-  padding: 3.6px;
+  width: 130px;
+  margin-left: 19px;
+  padding: 5.5px 1px;
   color: rgb(84, 83, 83);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   background-color: transparent;
   border: 1px solid rgb(141, 140, 140);
@@ -167,7 +167,7 @@ body {
 }
 
 .lower {
-  width: 140px;
+  width: 150px;
   padding: 5.5px 18px 5.5px 5px;
   background-color: transparent;
   border: 1px solid rgb(202, 201, 201);
@@ -175,7 +175,8 @@ body {
   font-size: 12px;
   font-weight: bold;
   border-radius: 5px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  align-self: center;
 }
 
 .but_ton {
@@ -189,13 +190,15 @@ body {
 }
 
 #lower {
-  margin: 5.7px auto;
+  /* margin: 5.7px auto; */
+  display: flex;
+  justify-content: flex-start;
 }
 
 .row5,
 .row6 {
   display: grid;
-  grid-template-columns: 1fr 6fr 1.3fr 1.7fr;
+  grid-template-columns: 1fr 6fr 1.4fr 1.9fr;
   align-items: center;
   margin: 0px 23px;
 }

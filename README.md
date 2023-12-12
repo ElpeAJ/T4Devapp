@@ -1,16 +1,13 @@
 Group members:
 <br>
-Oluwatoyin O.   |   Nana Adwoa M.   |   Flora N.
+Oluwatoyin O.      |      Nana Adwoa M.      |      Flora N.
 <br>
-Adaobi C.   |   Nina Spio Q.   |   Chiamaka O.
+Adaobi C.          |      Nina Spio Q.       |      Chiamaka O.
 <br>
-Olaide A.   |   Shulammite U.   | Elpedia A. J
+Olaide A.          |      Shulammite U.      |      Anna T.
 <br>
-Gift O.
-<br>
-Anna T.
-<br>
-
+Gift O.            |      Elpedia A. J
+  
 App Connectors: Bringing Your Digital World Together
 This is the vision behind app connectors - powerful tools that bridge the gap between different applications, allowing them to communicate and collaborate.
 ---
